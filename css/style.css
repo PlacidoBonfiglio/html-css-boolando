@@ -16,6 +16,18 @@ img {
     display: inline-block;
 }
 
+.img-hover {
+    display: none;
+}
+
+.card:hover .img-normal {
+    display: none;
+}
+
+.card:hover .img-hover {
+    display: inline-block;
+}
+
 span{
     font-family: sans-serif;
 }
@@ -100,4 +112,11 @@ header {
 
 .card {
     position: relative;
+}
+
+/* footer */
+footer {
+    height: 100px;
+    background-color: #1A1A1A;
+    margin-top: 50px;
 }
