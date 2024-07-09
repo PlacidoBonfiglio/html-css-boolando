@@ -8,16 +8,79 @@
 .container {
     max-width: 1600px;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 img {
     max-width: 520px;
+    display: inline-block;
+}
+
+span{
+    font-family: sans-serif;
+}
+
+span.new-price {
+    color: red;
+    font-weight: bold;
+}
+
+span.old-price {
+    text-decoration: line-through;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+span.discount {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+}
+
+span.sustainability {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    position: absolute;
+    bottom: 120px;
+    left: 57px;
+}
+
+span.sl {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+}
+
+.favourite {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.card:hover .favourite{
+    color: red;
 }
 
 /* header */
 header {
     position: fixed;
+    z-index: 1;
     width: 100%;
     height: 100px;
     background-color: #FF6900;
@@ -32,4 +95,9 @@ header {
 
 .col {
     flex-basis: calc((1600px / 3) - (40px / 3));
+    padding-top: 50px;
+}
+
+.card {
+    position: relative;
 }
