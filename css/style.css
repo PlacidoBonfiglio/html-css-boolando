@@ -193,10 +193,11 @@ h3.f-h3 {
 .info-links {
     font-weight: lighter;
     color: white;
-    flex-basis: 100%;
-  
 }
 
+.link-info {
+    margin-right: 10px;
+}
 
 .footer-right {
    flex-basis: 10%;
