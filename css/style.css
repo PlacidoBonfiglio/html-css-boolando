@@ -197,6 +197,7 @@ h3.f-h3 {
   
 }
 
+
 .footer-right {
    flex-basis: 10%;
    height: 50px;
@@ -213,7 +214,7 @@ h4{
     text-align: right;
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 20px;
 }
 
 .icons-flex {
